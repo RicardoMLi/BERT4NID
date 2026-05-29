@@ -17,6 +17,7 @@ Experiments are conducted on EdgeIIoTset [1], Bot-IoT [2], USTC TFC-2016 [3], CI
 [5] G. Draper-Gil, A. H. Lashkari, M. S. I. Mamun, and A. A. Ghorbani, “Characterization of encrypted and vpn traffic using time-related,” in Proc. ICISSP, Rome, Italy, 2016, pp. 407–414. (https://www.scitepress.org/papers/2016/57407/57407.pdf)
 
 
+preprocess--> to get pretraining and finetuning datasets
 
 modules-->basic modules to construct transformer-based model MTC-MAE
 
