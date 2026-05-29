@@ -21,7 +21,6 @@ This paper proposes a new IoT network intrusion detection model called Bidirecti
 * [SplitCap](https://www.netresec.com/?page=SplitCap)
 * [scikit-learn](https://scikit-learn.org/stable/)
 * For the mixed precision training you will need apex from NVIDIA
-* For the pre-trained model conversion (related with TensorFlow) you will need TensorFlow
 * For the tokenization with wordpiece model you will need [WordPiece](https://github.com/huggingface/tokenizers)
 
 ## Quick start
