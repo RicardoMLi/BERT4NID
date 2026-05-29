@@ -1,0 +1,90 @@
+UTSC_MAPPER = {
+    "BitTorrent": 0,
+    "Facetime": 1,
+    "FTP": 2,
+    "Gmail": 3,
+    "MySQL": 4,
+    "Outlook": 5,
+    "Skype": 6,
+    "SMB": 7,
+    "Weibo": 8,
+    "WorldOfWarcraft": 9,
+    "Cridex": 10,
+    "Geodo": 11,
+    "Htbot": 12,
+    "Miuref": 13,
+    "Neris": 14,
+    "Nsis-ay": 15,
+    "Shifu": 16,
+    "Tinba": 17,
+    "Virut": 18,
+    "Zeus": 19,
+}
+
+Kitsune_Mapper = {
+    "Active_Wiretap": 0,
+    "ARP_MitM": 1,
+    "Fuzzing": 2,
+    "Mirai": 3,
+    "OS_Scan": 4,
+    "SSDP_Flood": 5,
+    "SSL_Renegotiation": 6,
+    "SYN_DoS": 7,
+    "Video_Injection": 8,
+}
+
+CTU_13_MAPPER = {
+    "DonBot": 0,
+    "Murlo": 1,
+    "Neris": 2,
+    "NSIS.ay": 3,
+    "Rbot": 4,
+    "Sogou": 5,
+    "Virut": 6,
+    "Normal": 7,
+}
+
+MQTT_IoT_MAPPER = {
+    "mqtt_bruteforce": 0,
+    "normal": 1,
+    "scan_A": 2,
+    "scan_sU": 3,
+    "sparta": 4,
+}
+
+MedBIoT_MAPPER = {
+    "bashlite_mal_CC_all": 0,
+    "bashlite_mal_spread_all": 0,
+    "mirai_mal_CC_all": 1,
+    "mirai_mal_spread_all": 1,
+    "bashlite_leg": 2,
+    "mirai_leg": 2,
+    "torii_leg": 2,
+    "torii_mal_all": 3,
+}
+
+Edge_IIoT_MAPPER = {
+    "Backdoor_attack": 0,
+    "DDoS_HTTP_Flood_attacks": 1,
+    "DDoS_ICMP_Flood_attacks": 2,
+    "DDoS_TCP_SYN_Flood_attacks": 3,
+    "DDoS_UDP_Flood_attacks": 4,
+    "MITM_Attack": 5,
+    "OS_Fingerprinting_attack": 6,
+    "Password_attacks": 7,
+    "PortScanning_attack": 8,
+    "Ransomware_attack": 9,
+    "SQL_injection_attack": 10,
+    "Uploading_attack": 11,
+    "XSS_attacks": 12,
+    "Distance": 13,
+    "Flame_Sensor": 13,
+    "Heart_Rate": 13,
+    "IR_Receiver": 13,
+    "Modbus": 13,
+    "phValue": 13,
+    "Soil_Moisture": 13,
+    "Sound_Sensor": 13,
+    "Temperature_and_Humidity": 13,
+    "Water_Level": 13,
+}
