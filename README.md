@@ -38,7 +38,7 @@ To obtain the pre-training and fine-tuning network traffic data, follow the foll
  4. Run 'preprocess/finetune_dataset.py' to get the fine-tuning dataset.
     ```
     python preprocess/finetune_dataset.py --dataset ustc \
-                                          --split_session_folder /data/ustc/
+                                          --split_session_folder /data/ustc/ \
                                           --level flow --output_path datasets/finetune_dataset.tsv
     ```
 
