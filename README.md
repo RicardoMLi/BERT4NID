@@ -25,11 +25,17 @@ This paper proposes a new IoT network intrusion detection model called Bidirecti
 
 ## Datasets
 MedBIoT dataset: https://cs.taltech.ee/research/data/medbiot/
+
 MQTT_IoT dataset: https://ieee-dataport.org/open-access/mqtt-iot-ids2020-mqtt-internet-things-intrusion-detection-dataset
+
 Kitsune dataset: https://www.kaggle.com/datasets/ymirsky/network-attack-dataset-kitsune
+
 USTC-TFC dataset: https://github.com/echowei/DeepTraffic/tree/master/1.malware_traffic_classification/1.DataSet(USTC-TFC2016)
+
 UNSW-NB15 dataset: https://research.unsw.edu.au/projects/unsw-nb15-dataset
+
 CIC IDS2017 dataset: https://www.unb.ca/cic/datasets/ids-2017.html
+
 Edge-IIoTset dataset: https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot
 
 ## Quick start
