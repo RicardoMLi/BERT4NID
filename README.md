@@ -23,6 +23,9 @@ This paper proposes a new IoT network intrusion detection model called Bidirecti
 * For the mixed precision training you will need apex from NVIDIA
 * For the tokenization with wordpiece model you will need [WordPiece](https://github.com/huggingface/tokenizers)
 
+## Datasets
+MedBIoT dataset: https://cs.taltech.ee/research/data/medbiot/
+
 ## Quick start
 ### Pre-process
 To obtain the pre-training and fine-tuning network traffic data, follow the following steps:
