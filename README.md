@@ -50,7 +50,7 @@ To obtain the pre-training and fine-tuning network traffic data, follow these st
                                           --dataset_path datasets/pretrained_bert_dataset.pt \
                                           --processes_num 8 --target bert
     ```
- 4. Run 'preprocess/finetune_dataset.py' to get the fine-tuning dataset.
+ 4. Run `preprocess/finetune_dataset.py` to get the fine-tuning dataset.
     ```
     python preprocess/finetune_dataset.py --dataset ustc \
                                           --split_session_folder /data/ustc/ \
