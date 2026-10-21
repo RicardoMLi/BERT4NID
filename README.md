@@ -40,7 +40,7 @@ Edge-IIoTset dataset: https://www.kaggle.com/datasets/mohamedamineferrag/edgeiio
 
 ## Quick start
 ### Pre-process
-To obtain the pre-training and fine-tuning network traffic data, follow the following steps:
+To obtain the pre-training and fine-tuning network traffic data, follow these steps:
  1. The original PCAP file needs to be processed using the [SplitCap](https://www.netresec.com/?page=SplitCap) tool to divide the raw network traffic into individual flow-level PCAP files, where each file corresponds to a single bidirectional flow.
  2. Run `vocab/main.py` to generate the network traffic corpus and vocab. Note you should change the `root_dir` path according to your settings.
  3. Run `preprocess/pretrain_dataset.py` to get the pre-training dataset.
