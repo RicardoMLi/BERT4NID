@@ -171,11 +171,14 @@ class BertTrainer(Trainer):
     def forward_propagation(self, batch, model):
         src, tgt_mlm, tgt_sp, seg = batch
         loss_info = model(src, (tgt_mlm, tgt_sp), seg)
-        loss_sp, correct_sp = loss_info
-        loss = loss_sp
+        loss_mlm, loss_sp, correct_mlm, correct_sp, denominator = loss_info
+        loss = loss_mlm/10 + loss_sp
         self.total_loss += loss.item()
+        self.total_loss_mlm += loss_mlm.item()
         self.total_loss_sp += loss_sp.item()
+        self.total_correct_mlm += correct_mlm.item()
         self.total_correct_sp += correct_sp.item()
+        self.total_denominator += denominator.item()
         self.total_instances += src.size(0)
         loss = loss / self.accumulation_steps
 
