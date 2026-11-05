@@ -168,6 +168,10 @@ class BertTrainer(Trainer):
         self.total_correct_sp = 0.0
         self.total_instances = 0.0
 
+        self.total_loss_mlm = 0.0
+        self.total_correct_mlm = 0.0
+        self.total_denominator = 0.0
+
     def forward_propagation(self, batch, model):
         src, tgt_mlm, tgt_sp, seg = batch
         loss_info = model(src, (tgt_mlm, tgt_sp), seg)
