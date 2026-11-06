@@ -128,7 +128,7 @@ def build_WP():
     tokenizer.post_processor = processors.BertProcessing(sep=("[SEP]", 1), cls=('[CLS]', 2))
 
     # And then train
-    trainer = trainers.WordPieceTrainer(vocab_size=261, min_frequency=2)
+    trainer = trainers.WordPieceTrainer(vocab_size=65536, min_frequency=2)
     tokenizer.train([word_name, word_name], trainer=trainer)
 
     # And Save it
